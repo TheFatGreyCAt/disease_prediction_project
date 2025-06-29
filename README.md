@@ -18,7 +18,7 @@ Dự án xây dựng hệ thống dự đoán nguy cơ mắc bệnh tiểu đư�
 ├── outputs/
 │   ├── charts/             # Hình ảnh trực quan hóa, confusion matrix
 │   └── reports/            # Báo cáo mô hình
-├── src/diabetes/           # Module Python: train, evaluate, predict
+├── venv                    # Môi trường ảo
 ├── requirements.txt        # Thư viện cần thiết
 ├── report.txt              # Báo cáo chi tiết
 └── README.md               # Tài liệu này
@@ -38,10 +38,11 @@ Dự án xây dựng hệ thống dự đoán nguy cơ mắc bệnh tiểu đư�
    - Đóng gói hàm dự đoán cho dữ liệu mới (`src/diabetes/predict.py`).
 
 ## Sử dụng nhanh
-### 1. Cài đặt thư viện
+### 1. Cài đặt thư viện và môi trường
 ```bash
 pip install -r requirements.txt
 ```
+[Tải và giải nén file venv.rar](https://drive.google.com/file/d/18NybXm5Ir42g9GPIs3Ortq7GvLXdP-Fc/view?usp=sharing)
 
 ### 2. Chạy các notebook theo thứ tự:
 - 01_preprocessing.ipynb
